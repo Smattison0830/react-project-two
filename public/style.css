@@ -1,3 +1,56 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+}
+
+nav {
+  background: #F55A5A;
+  display: flex;
+  height: 55px;
+  justify-content: center;
+}
+
+.navbar--image {
+  height: 25px;
+  align-self: center;
+  margin: 8px;
+}
+
+.navbar--words {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+  align-self: center;
+
+}
+
+.card {
+  display: flex;
+}
+
+.card--image {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+  object-fit: cover;
+
+}
+
+.card--arrow {
+  height: 20px;
+}
+
+.card--description {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+}
